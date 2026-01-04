@@ -77,7 +77,7 @@ Run the backend:
 
 python myapp.py
 
-Frontend Setup
+### Frontend Setup
 
 Go to the frontend folder:
 
@@ -110,7 +110,7 @@ Explore features like update name/password, delete account
 
 Your tokens are stored in localStorage for session management
 
-Notes
+### Notes
 
 Make sure the backend is running before using the frontend
 
@@ -120,7 +120,7 @@ Database (users.db) is stored locally in instance/
 
 Google OAuth requires a valid client ID set in .env
 
-Future Improvements
+### Future Improvements
 
 Add email verification using Flask-Mail
 
