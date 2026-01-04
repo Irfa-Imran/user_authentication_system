@@ -1,0 +1,134 @@
+.login-outerbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  background-color: white;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.login-innerbox {
+  border: 1px solid black;
+  background-color: rgb(243, 219, 243);
+  border-radius: 1rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+
+.login-innerbox form {
+  width: 100%;
+}
+
+.login-headings {
+  margin: 1rem 0 0.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-input-box {
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-btn {
+  margin: 0.5rem 0 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-input-box input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+.login-input-box input,
+.login-input-box label {
+  margin-bottom: 0.5rem;
+}
+
+.login-btn button {
+  background-color: rgb(90, 17, 90);
+  color: white;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+.login-btn img {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+.signup-box a {
+  text-decoration: none;
+  color: rgb(90, 17, 90);
+}
+
+.password-input-field {
+  position: relative;
+  /* width: 100%; */
+}
+
+.password-input-field input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 0 2.5rem 0 1rem;
+  width: 100%;
+}
+
+.password-input-field span {
+  position: absolute;
+  right: 0.75rem;
+  top: 42%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .login-outerbox {
+    flex-direction: column;
+  }
+
+  .login-img {
+    display: none;
+  }
+
+  .login-innerbox {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .login-headings h5 {
+    text-align: center;
+  }
+
+  .signup-box {
+    text-align: center;
+  }
+}

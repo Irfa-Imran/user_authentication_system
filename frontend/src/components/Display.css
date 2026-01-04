@@ -1,0 +1,13 @@
+.display-headings {
+  text-transform: capitalize;
+}
+
+.display-outerbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}

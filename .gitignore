@@ -1,0 +1,24 @@
+# Instance / local DB
+instance/
+*.db
+
+# Test / coverage / caches
+.pytest_cache/
+htmlcov/
+coverage/
+.mypy_cache/
+
+# Packaging / venv
+pip-wheel-metadata/
+*.egg-info/
+.venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

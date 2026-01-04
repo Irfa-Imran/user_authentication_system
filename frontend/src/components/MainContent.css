@@ -1,0 +1,35 @@
+.main-outer-box {
+  background-color: white;
+  height: 90%;
+  text-align: center;
+  padding: 3rem;
+}
+
+.main-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-page-para {
+  width: 50%;
+}
+
+.main-page-btn {
+  gap: 2rem;
+}
+
+.main-page-btn button {
+  background-color: rgb(90, 17, 90);
+  margin: 1rem;
+  height: 4rem;
+  width: 6rem;
+  font-size: 18px;
+}
+
+@media (max-width: 578px) {
+  .main-page-btn button {
+    font-size: 14px;
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,54 @@
+.dlt-outerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.dlt-outerbox form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+#dlt-email-input,
+#dlt-pwd-input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+.dlt-btn {
+  width: 25%;
+  background-color: red;
+}
+
+.dlt-pwd-field {
+  position: relative;
+  width: 100%;
+}
+
+.dlt-pwd-field input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 0 2.5rem 0 1rem;
+  width: 100%;
+}
+
+.dlt-pwd-field span {
+  position: absolute;
+  right: 0.75rem;
+  top: 42%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.dlt-btn:hover {
+  color: red;
+  background-color: white;
+  border: 1px solid red !important;
+}

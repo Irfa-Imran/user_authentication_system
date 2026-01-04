@@ -1,0 +1,144 @@
+.signup-outerbox {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  gap: 1rem;
+  height: 90%;
+  background-color: white;
+  width: 98%;
+}
+
+.signup-innerbox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 219, 243);
+  width: 40%;
+  align-items: center;
+  padding: 1rem 3rem 1rem 3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.signup-innerbox form {
+  width: 100%;
+}
+
+.signup-headings {
+  margin: 1rem 0 0.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.username-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.username-box input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+.signup-input-box {
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-password-field {
+  position: relative;
+}
+
+.signup-password-field input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 0 2.5rem 0 1rem;
+  width: 100%;
+}
+
+.signup-password-field span {
+  position: absolute;
+  right: 0.75rem;
+  top: 45%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signup-input-box input {
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+.signup-input-box input,
+.signup-input-box label {
+  margin-bottom: 0.25rem;
+}
+
+.signup-btn {
+  margin: 0.5rem 0 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-btn button {
+  background-color: rgb(90, 17, 90);
+  color: white;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+
+.signup-btn img {
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.login-box a {
+  text-decoration: none;
+  color: rgb(90, 17, 90);
+}
+
+.signup-img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .signup-outerbox {
+    flex-direction: column;
+  }
+
+  .signup-img {
+    display: none;
+  }
+
+  .signup-innerbox {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .signup-headings h5 {
+    text-align: center;
+  }
+  .login-box {
+    text-align: center;
+  }
+}

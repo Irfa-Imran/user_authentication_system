@@ -1,0 +1,26 @@
+.changename-outerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.changename-outerbox form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+#changename-input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+.changename-btn {
+  width: 25%;
+}
